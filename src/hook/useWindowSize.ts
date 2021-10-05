@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react';
-// Define general type for useWindowSize hook, which includes width and height
-export interface Size {
-    width: number | undefined;
-    height: number | undefined;
-}
+import { Size } from '../types/mediapipe';
+
 // Initialize state with undefined width/height so server and client renders match
 const useWindowSize = function useWindowSize(): Size {
     // Initialize state with undefined width/height so server and client renders match

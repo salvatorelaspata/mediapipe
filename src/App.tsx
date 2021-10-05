@@ -12,10 +12,10 @@ function App() {
     return (
         <Router>
             <NavBar />
-            <div>
+            <div >
                 <Switch>
                     <Route path="/about">
-                        <div>/about</div>
+                        <div style={{ paddingBottom: 100 }}>/about</div>
                     </Route>
                     <Route path="/mediapipe">
                         <MediaPipe />
@@ -24,11 +24,11 @@ function App() {
                         <Home />
                     </Route>
                     <Route path="*">
-                        <div>404</div>
+                        <div style={{ paddingBottom: 100 }}>404</div>
                     </Route>
                 </Switch>
             </div>
-        </Router>
+        </Router >
     );
 }
 

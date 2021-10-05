@@ -6,8 +6,10 @@ interface NavBarProp {
 }
 const NavBar: React.FC<NavBarProp> = () => {
     return (
-        <nav>
-            <ul>
+        <nav className="mobile-menu">
+            <label htmlFor="show-menu" className="show-menu"><span></span><div className="lines"></div></label>
+            <input type="checkbox" id="show-menu"></input>
+            <ul id="menu">
                 <li>
                     <Link to="/">Home</Link>
                 </li>

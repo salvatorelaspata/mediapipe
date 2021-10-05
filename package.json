@@ -8,6 +8,7 @@
         "@mediapipe/drawing_utils": "^0.3.1620248257",
         "@mediapipe/face_detection": "^0.4.1628005423",
         "@mediapipe/face_mesh": "^0.4.1629159166",
+        "@mediapipe/hands": "^0.3.1630010197",
         "@mediapipe/selfie_segmentation": "^0.1.1629494320",
         "device-detector-js": "^2.2.10",
         "react": "^17.0.2",
